@@ -1,10 +1,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "jsx": "react-jsx",
     "strict": false,
     "noImplicitAny": false,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": false
+    "skipLibCheck": true
   },
   "include": ["src"]
 }
